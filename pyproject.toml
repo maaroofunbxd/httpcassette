@@ -8,6 +8,7 @@ dynamic = ["version"]
 description = "Record, replay and stub any HTTP service from cassettes: one JSON file per call; list, show and diff sets."
 readme = "README.md"
 requires-python = ">=3.9"
+license = { text = "MIT" }
 # requests: only the proxy's record and auto modes forward to an upstream; replay, stub and the store need none.
 dependencies = ["requests>=2.28"]
 

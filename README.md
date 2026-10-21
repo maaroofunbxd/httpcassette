@@ -92,3 +92,7 @@ starts with one of `id_prefixes`).
 ```bash
 uv sync && uv run ruff check src tests && uv run pytest -q
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
